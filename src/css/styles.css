@@ -1,0 +1,92 @@
+:root{
+    --cor-de-fundo: #6e5c62;
+}
+
+.tem{
+    background-color: #d3ad69;
+}
+
+.errado{
+    background-color: #191516;
+}
+
+.certo{
+    background-color: #3aa394;
+}
+
+body{
+    width: 100vw;
+    height: 100dvh;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor-de-fundo);
+    justify-content: space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.topo{
+    width: 100vw;
+    background-color: #965067;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.disabled{
+    background-color: #615458;
+}
+
+table{
+    width: 25vw;
+    height: 25vw;
+}
+
+table td{
+    background-color: #816a72;
+    border: 5px solid #4c4347;
+    border-radius: 5px;
+    width: 20%;
+    height: 20%;
+
+    font-size: 30px;
+    text-align: center;
+
+
+}
+
+.teclado{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-between;
+
+    
+    width: 50vw;
+    height: 30vh;
+}
+
+.l1, .l2, .l3{
+    width: 100%;
+    height: 30%;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+    
+}
+
+.btn{
+    width: 9%;
+    height: 80%;
+
+    background-color: #4c4347;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 30px;
+}
