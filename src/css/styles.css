@@ -42,6 +42,8 @@ body{
 table{
     width: 25vw;
     height: 25vw;
+    min-width: 350px;
+    min-height: 350px;
 }
 
 table td{
@@ -62,11 +64,10 @@ table td{
     flex-direction: column;
 
     align-items: center;
-    justify-content: space-between;
-
     
     width: 50vw;
     height: 30vh;
+    min-width: 350px;
 }
 
 .l1, .l2, .l3{
@@ -86,7 +87,13 @@ table td{
 
     background-color: #4c4347;
     border: none;
-    border-radius: 8px;
+    border-radius: 4px;
     color: white;
     font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #584e52;
 }
